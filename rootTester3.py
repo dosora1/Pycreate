@@ -35,5 +35,5 @@ def root(n):
     if frnt==1:frnt=''
     return str(frnt)+sym+str(n)+close
 
-for i in range(1000):
+for i in range(101):
     print(root(i))
